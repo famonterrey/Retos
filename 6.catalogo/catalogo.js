@@ -1,7 +1,7 @@
 let catalogo = []; //1.Declaro un arreglo vacío
 
 function agregarProducto(nombre,precio){ //2Función de declaración con la que agregamos un producto al catálogo
-    catalogo.push({nombre: nombre, precio: precio});
+    catalogo.push({nombre: nombre.trim(), precio: precio});
     console.log("Producto " + nombre + " agregado");
 }
 
